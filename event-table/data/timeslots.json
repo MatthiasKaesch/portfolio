@@ -7,7 +7,8 @@
         "title": "Welcome & Introduction",
         "tag": "",
         "description": "Kickstart the day with an opening session where we’ll outline the agenda, introduce key speakers, and share the vision for this exciting event.",
-        "speakers": [""]
+        "speakers": [""],
+        "room": 0
       }
     ]
   },
@@ -19,28 +20,32 @@
         "title": "AI in Modern Marketing",
         "tag": "Panel",
         "description": "Discover how artificial intelligence is transforming the marketing landscape, enabling personalized experiences, automating processes, and generating insights like never before.",
-        "speakers": ["John Romeo", "Sophia Miller"]
+        "speakers": ["John Romeo", "Sophia Miller"],
+        "room": 1
       },
       {
         "id": "ts2#002",
         "title": "Ethics of AI",
         "tag": "Talk",
         "description": "Exploring the ethical boundaries of artificial intelligence.",
-        "speakers": ["Dr. Amanda Lee"]
+        "speakers": ["Dr. Amanda Lee"],
+        "room": 2
       },
       {
         "id": "ts2#003",
         "title": "AI-Powered Creativity",
         "tag": "Workshop",
         "description": "A hands-on session designed to help attendees explore how AI tools can amplify creativity in art, design, and content creation.",
-        "speakers": ["David Casper"]
+        "speakers": ["David Casper"],
+        "room": 3
       },
       {
         "id": "ts2#004",
         "title": "Future Trends in AI",
         "tag": "Panel",
         "description": "Engage with industry leaders as they discuss emerging AI technologies and their potential impacts on business, society, and daily life.",
-        "speakers": ["Emanuelle Chapon", "Aziz Cemrek"]
+        "speakers": ["Emanuelle Chapon", "Aziz Cemrek"],
+        "room": 4
       }
     ]
   },
@@ -52,7 +57,8 @@
         "title": "Coffee Break",
         "tag": "",
         "description": "A brief pause to recharge with coffee, tea, and light snacks while connecting with other attendees.",
-        "speakers": [""]
+        "speakers": [""],
+        "room": 0
       }
     ]
   },
@@ -64,28 +70,25 @@
         "title": "The Future of IoT",
         "tag": "Panel",
         "description": "Experts share insights into how the Internet of Things will evolve over the next decade and its profound impact on industries and consumers.",
-        "speakers": ["Jessica Shaft"]
+        "speakers": ["Jessica Shaft"],
+        "room": 1
       },
-      {
-        "id": "ts4#002",
-        "title": "AI for Small Businesses",
-        "tag": "Talk",
-        "description": "Learn how AI is leveling the playing field for small enterprises by providing access to powerful tools and insights that were once only available to large corporations.",
-        "speakers": ["Roberta Rodriguez"]
-      },
+      {},
       {
         "id": "ts4#003",
         "title": "AI in Healthcare",
         "tag": "Workshop",
         "description": "Explore real-world examples of AI being used to improve patient outcomes, streamline medical processes, and push the boundaries of healthcare innovation.",
-        "speakers": ["Dr. Maria Chen"]
+        "speakers": ["Dr. Maria Chen"],
+        "room": 3
       },
       {
         "id": "ts4#004",
         "title": "Data Privacy & AI",
         "tag": "Panel",
         "description": "Addressing the pressing concerns around data privacy in the age of AI. This session focuses on strategies for ensuring secure and ethical data practices.",
-        "speakers": ["Aziz Cemrek"]
+        "speakers": ["Aziz Cemrek"],
+        "room": 4
       }
     ]
   },
@@ -97,7 +100,8 @@
         "title": "Lunch Break",
         "tag": "",
         "description": "Enjoy a delicious lunch buffet while taking a moment to relax and network with other participants in a casual setting.",
-        "speakers": [""]
+        "speakers": [""],
+        "room": 0
       }
     ]
   },
@@ -109,28 +113,32 @@
         "title": "AI in Retail",
         "tag": "Talk",
         "description": "Transforming customer experiences with AI.",
-        "speakers": ["Sophia Miller"]
+        "speakers": ["Sophia Miller"],
+        "room": 1
       },
       {
         "id": "ts6#002",
         "title": "AI-Powered Manufacturing",
         "tag": "Panel",
         "description": "Discover how artificial intelligence is revolutionizing production lines, from predictive maintenance to fully automated factories.",
-        "speakers": ["David Casper", "Jessica Shaft"]
+        "speakers": ["David Casper", "Jessica Shaft"],
+        "room": 2
       },
       {
         "id": "ts6#003",
         "title": "Building Responsible AI",
         "tag": "Workshop",
         "description": "Practical approaches and best practices for creating ethical, fair, and bias-free AI systems. This workshop will provide actionable strategies and case studies.",
-        "speakers": ["Dr. Amanda Lee"]
+        "speakers": ["Dr. Amanda Lee"],
+        "room": 3
       },
       {
         "id": "ts6#004",
         "title": "AI in Education",
         "tag": "Panel",
         "description": "How AI is enhancing learning experiences.",
-        "speakers": ["Emanuelle Chapon"]
+        "speakers": ["Emanuelle Chapon"],
+        "room": 4
       }
     ]
   },
@@ -142,7 +150,8 @@
         "title": "Coffee Break",
         "tag": "",
         "description": "Grab a coffee and chat with fellow attendees.",
-        "speakers": [""]
+        "speakers": [""],
+        "room": 0
       }
     ]
   },
@@ -154,28 +163,32 @@
         "title": "Scaling AI Solutions",
         "tag": "Talk",
         "description": "Discover strategies for implementing AI at scale across global organizations while maintaining flexibility and adaptability.",
-        "speakers": ["Sophia Miller"]
+        "speakers": ["Sophia Miller"],
+        "room": 1
       },
       {
         "id": "ts8#002",
         "title": "AI for Social Good",
         "tag": "Panel",
         "description": "A discussion on how AI can be leveraged to solve global challenges, including climate change, healthcare accessibility, and education.",
-        "speakers": ["John Romeo", "Roberta Rodriguez"]
+        "speakers": ["John Romeo", "Roberta Rodriguez"],
+        "room": 2
       },
       {
         "id": "ts8#003",
         "title": "The AI Startup Journey",
         "tag": "Workshop",
         "description": "Practical advice for entrepreneurs and startups looking to leverage AI in their products or services.",
-        "speakers": ["David Casper"]
+        "speakers": ["David Casper"],
+        "room": 3
       },
       {
         "id": "ts8#004",
         "title": "Interactive Q&A with AI Experts",
         "tag": "Interactive",
         "description": "A unique opportunity to ask your burning questions directly to leading AI experts and innovators.",
-        "speakers": ["Jessica Shaft", "Aziz Cemrek"]
+        "speakers": ["Jessica Shaft", "Aziz Cemrek"],
+        "room": 4
       }
     ]
   },
@@ -187,7 +200,8 @@
         "title": "Get-Together",
         "tag": "",
         "description": "Wrap up the day with an informal gathering, enjoy light refreshments, and connect with speakers, organizers, and fellow attendees.",
-        "speakers": [""]
+        "speakers": [""],
+        "room": 0
       }
     ]
   }

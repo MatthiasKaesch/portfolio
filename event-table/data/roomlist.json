@@ -1,5 +1,9 @@
 [
   {
+    "id": "room=",
+    "name": "Time"
+  },
+  {
     "id": "room1",
     "name": "Innovation Hub"
   },
