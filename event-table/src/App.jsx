@@ -16,7 +16,6 @@ function App() {
     <div className="wrapper">
       <h1>Hello World</h1>
       <ul className="list maingrid_rooms" id="rooms">
-        <li className="roomlist_item griditem">Time</li>
         {rooms.map((room) => {
           return <li className="roomlist_item griditem">{room.name}</li>
         })}

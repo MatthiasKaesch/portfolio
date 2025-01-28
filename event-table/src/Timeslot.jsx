@@ -8,25 +8,26 @@ const Timeslot = ({ id, time, events }) => {
       {events.map((event) => {
         return (
           <div className="panel_wrapper">
-            <section className="panel_container">
-              <div class="panel_grid">
+            <section
+              className={`panel_container${event.title ? '' : '__empty'}`}
+            >
+              <div className="panel_grid">
                 {event.tag && (
-                  <p class="panel_tag" aria-label="Event type: {{event.type}}">
+                  <p
+                    className="panel_tag"
+                    aria-label="Event type: {{event.type}}"
+                  >
                     {event.tag}
                   </p>
                 )}
-
-                {/*   {% if event.link.url.href %} */}
-                <p class="panel_link">
-                  See more <span aria-hidden="true">→</span>
-                </p>
-                {/*  {% endif %} {% endif %} {% if event.link %} {% endif %} */}
               </div>
 
-              <h3 class="panel_title">{event.title}</h3>
+              <h3 className="panel_title">{event.title}</h3>
+
+              <p>{event.description}</p>
 
               {/*   {% if event.speakers %} */}
-              <p class="panel_speakers">{event.speakers}</p>
+              <p className="panel_speakers">{event.speakers}</p>
               {/*   {% endif %} */}
             </section>
           </div>
