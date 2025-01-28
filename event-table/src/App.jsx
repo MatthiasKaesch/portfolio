@@ -23,7 +23,12 @@ function App() {
 
       {timeslots.map((data) => {
         return (
-          <Timeslot id={data.id} time={data.timeslot} events={data.events} />
+          <Timeslot
+            id={data.id}
+            time={data.timeslot}
+            events={data.events}
+            rooms={rooms}
+          />
         )
       })}
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Timeslot = ({ id, time, events }) => {
+const Timeslot = ({ id, time, events, rooms }) => {
   return (
     <div className="maingrid">
       <h2 className="griditem timeslot">{time}</h2>
@@ -26,9 +26,13 @@ const Timeslot = ({ id, time, events }) => {
 
               <p>{event.description}</p>
 
-              {/*   {% if event.speakers %} */}
-              <p className="panel_speakers">{event.speakers}</p>
-              {/*   {% endif %} */}
+              {event.speakers &&
+                event.speakers.map((speaker) => (
+                  <p className="panel_speakers">{speaker}</p>
+                ))}
+              <p className="panel_roomInfo">
+                Room: {rooms[event.roomNumber].name}
+              </p>
             </section>
           </div>
         )
